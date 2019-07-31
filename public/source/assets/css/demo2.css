@@ -1,0 +1,16 @@
+body{
+	margin:0;
+	padding-bottom: 0;
+}
+	.navbar-brand img{
+		max-width: 50%
+	}
+	.navbar{
+		border-bottom:4px solid #009A9A;
+	}
+	.logo-nav{
+		text-align: center;
+	}
+	.logo-nav img{
+		width:120px;
+	}

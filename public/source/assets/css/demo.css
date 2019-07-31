@@ -1,0 +1,26 @@
+#header{
+	background-color:#036aa6;
+}
+.navbar--config{
+	background-color:#007cc3;
+}
+#carousel{
+	height:500px;
+	background-image: url('../img/banner-3.jpg');
+	background-size:cover;
+	background-position: center center;
+}
+.intro-1,.intro-2{
+	height:300px;
+	background-size:cover;
+	background-position: center center;
+}
+.intro-1 p,.intro-2 p{
+	font-size:25px;
+}
+.intro-1{
+	background-image: url(../img/intro-3.jpg);
+}
+.intro-2{
+	background-image: url(../img/intro-4.jpg);
+}

@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /nha_hang/
+#this is comment
+
+RewriteRule ^accept-order/([a-zA-Z0-9]*)/([0-9]+)$ accept-order.php?token=$1&time=$2 
+
+RewriteRule ^cancle-order/([a-zA-Z0-9]*)/([0-9]+)$ cancle-order.php?token=$1&time=$2 
+
+RewriteRule ^([a-zA-Z0-9-]*)-([0-9]+).html$ detail-food.php?alias=$1&id=$2
+
+
+
+RewriteRule ^nha_hang.html$ index.php
+RewriteRule ^lien-he.html$ contact.php
+RewriteRule ^mon-an-theo-loai.html$ food-by-type.php
+RewriteRule ^tim-kiem.html$ search.php
+RewriteRule ^ds-thuc-don.html$ menu.php
+
+RewriteRule ^error.html$ 404.php
+
+ErrorDocument 404 /nha_hang/error.html
+ErrorDocument 500 /nha_hang/error.html
+
